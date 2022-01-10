@@ -1,0 +1,40 @@
+.card
+{
+    width: 400px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ padding: 1rem 2rem;
+ flex-direction: row;
+ padding :1rem 0; 
+}
+.profile
+{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name-age
+{
+    width: 100%;
+    background-color: none;
+    margin-left: 10px;
+}
+.name
+{
+text-decoration:none ;
+font-weight: 500;
+letter-spacing: 0.1rem;
+}
+.age
+{
+    color: grey;
+    letter-spacing: 0.1rem;
+
+}
+#card
+{
+    display:none;
+}
